@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+SQLAlchemy
+pymysql
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+jinja2
+gunicorn
+python-dotenv
+pydantic[email]
+weasyprint
+xhtml2pdf
