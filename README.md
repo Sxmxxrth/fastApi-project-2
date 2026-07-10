@@ -1,0 +1,1 @@
+# fastApi-project-2\n\nAn awesome project built with modern technologies.
