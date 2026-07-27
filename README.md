@@ -27,5 +27,45 @@ A scalable backend microservice template built with FastAPI, implementing clean 
    uvicorn app.main:app --reload
    ```
 
+
+
+## 📁 Production Directory Structure
+
+```text
+📁 fastApi-project-2/
+├── 📄 README.md
+├── 📄 __init__.py
+├── 📁 alembic/
+│   ├── 📄 README
+│   ├── 📄 env.py
+│   ├── 📄 script.py.mako
+│   └── 📁 versions/
+├── 📄 alembic.ini
+├── 📁 app/
+│   ├── 📄 __init__.py
+│   ├── 📁 core/
+│   ├── 📁 models/
+│   ├── 📁 router/
+│   ├── 📁 schema/
+│   ├── 📁 sevices/
+│   ├── 📁 templates/
+│   └── 📁 utils/
+├── 📁 config/
+│   └── 📄 settings.yaml
+├── 📄 main.py
+├── 📄 requirements.txt
+├── 📄 router_integration_record.txt
+├── 📄 suggested_endpoints.txt
+└── 📁 tests/
+    └── 📄 test_auth.py
+```
+
+## 🧪 Running Automated Tests
+
+To run the automated production test suite, execute:
+
+```bash
+pytest tests/  # or python -m unittest discover -s tests
+```
 ## 📝 License
 MIT License

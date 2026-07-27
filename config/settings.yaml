@@ -1,0 +1,4 @@
+# Production settings for fastApi-project-2
+app_name: fastApi-project-2
+version: 1.0.0
+environment: production
